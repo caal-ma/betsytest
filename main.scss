@@ -52,7 +52,11 @@ body {
   		box-shadow: inset -2px 0 20px 0 #ADADAD;
   		padding:2%;
   		padding-top:15px;
+  		padding-left:0px;
   		width:60%;
+  		#event-text{
+  			margin-left:10%;
+  		}
   		#logo-banner{
   			/*background-color:#DE7878;*/
 	  		font-size:35px;
