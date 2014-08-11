@@ -7,6 +7,7 @@ $button-height:50px;
 $hover-color:#E34444;
 
 body {
+  margin:0;
   font: 100% $font-stack;
   color: $light-color;
   background-color:$bg-color;
@@ -40,18 +41,18 @@ body {
   }
 
   #content{
-  	margin-top:20px;
-  	overflow:hidden;
-	background-color:#FFF;
-	color:black;
-	font-family:'Trebuchet MS';
+    margin-top:20px;
+    overflow:hidden;
+	  background-color:$light-color;
+	  color:black;
+		font-family:'Trebuchet MS';
   	#left-column{
   		float:left;
-  		background-color:$light-color;
-  		padding:40px;
+  		background-color:#EDEDED;
+  		box-shadow: inset -2px 0 20px 0 #ADADAD;
+  		padding:2%;
   		padding-top:15px;
   		width:60%;
-  		box-shadow: 0 0 20px 0 #c4c4c4;
   		#logo-banner{
   			/*background-color:#DE7878;*/
 	  		font-size:35px;
@@ -72,10 +73,10 @@ body {
  		}
   	}
   	#right-column{
-  		float:left;
-  		padding:50px;
+      float:left;
+  		padding:3%;
   		font-size:20px;
-  		width:425px;
+  		width:28%;
   		#text-chinese{
   			color:$bg-color;
   			font-weight:bold;
